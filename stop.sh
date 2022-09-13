@@ -1,0 +1,6 @@
+kill -9 $(netstat -antp | grep :8080 | awk '{print $7}' | awk -F'/' '{ print $1 }')
+kill -9 $(netstat -antp | grep :8801 | awk '{print $7}' | awk -F'/' '{ print $1 }')
+kill -9 $(netstat -antp | grep :8802 | awk '{print $7}' | awk -F'/' '{ print $1 }')
+kill -9 $(netstat -antp | grep :8803 | awk '{print $7}' | awk -F'/' '{ print $1 }')
+kill -9 $(netstat -antp | grep :8804 | awk '{print $7}' | awk -F'/' '{ print $1 }')
+kill -9 $(netstat -antp | grep :8805 | awk '{print $7}' | awk -F'/' '{ print $1 }')
